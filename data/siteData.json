@@ -1,0 +1,77 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Floating Lake Villa",
+      "description": "A luxurious floating villa on Ulaman's bio-filtered lake.",
+      "imageUrl": "/images/rooms/floating-lake-villa.jpg",
+      "slug": "/rooms/floating-lake-villa"
+    },
+    {
+      "id": 2,
+      "name": "Cocoon Jungle",
+      "description": "Indulge in an unparalleled blend of exotic elegance and coziness.",
+      "imageUrl": "/images/rooms/cocoon-jungle.jpg",
+      "slug": "/rooms/cocoon-jungle"
+    },
+    {
+      "id": 3,
+      "name": "Avatar Tree House",
+      "description": "Experience luxury in an avatar-inspired sky villa with 180° views.",
+      "imageUrl": "/images/rooms/avatar-tree-house.jpg",
+      "slug": "/rooms/avatar-tree-house"
+    },
+    {
+      "id": 4,
+      "name": "Grand Lagoon Private Pool",
+      "description": "Indulge in an exclusive riverside villa with jungle lagoon view.",
+      "imageUrl": "/images/rooms/grand-lagoon.jpg",
+      "slug": "/rooms/grand-lagoon"
+    },
+    {
+      "id": 5,
+      "name": "Jungle Garden Pool",
+      "description": "An ultimate private pool retreat at Ulaman.",
+      "imageUrl": "/images/rooms/jungle-garden.jpg",
+      "slug": "/rooms/jungle-garden"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "icon": "Waves",
+      "name": "Holistic Spa",
+      "description": "Rejuvenate your body and soul with our world-class holistic spa treatments."
+    },
+    {
+      "id": 2,
+      "icon": "UtensilsCrossed",
+      "name": "Organic Restaurant",
+      "description": "Dine on fresh, locally-sourced, and organic farm-to-table cuisine."
+    },
+    {
+      "id": 3,
+      "icon": "PersonStanding",
+      "name": "Yoga Shala",
+      "description": "Find your center at our breathtaking bamboo yoga shala overlooking the river."
+    },
+    {
+      "id": 4,
+      "icon": "Dumbbell",
+      "name": "Jungle Gym",
+      "description": "Stay active in our unique fitness center equipped with state-of-the-art machines."
+    },
+    {
+      "id": 5,
+      "icon": "Wifi",
+      "name": "High-Speed Wi-Fi",
+      "description": "Stay connected with complimentary high-speed internet across the entire resort."
+    },
+    {
+      "id": 6,
+      "icon": "ParkingCircle",
+      "name": "Complimentary Parking",
+      "description": "Enjoy peace of mind with our secure and complimentary on-site parking."
+    }
+  ]
+}
