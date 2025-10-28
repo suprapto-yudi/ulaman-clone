@@ -34,6 +34,13 @@
       "description": "An ultimate private pool retreat at Ulaman.",
       "imageUrl": "/images/rooms/jungle-garden.jpg",
       "slug": "/rooms/jungle-garden"
+    },
+    {
+      "id": 6,
+      "name": "Ulin Poolside",
+      "description": "A luxurious jungle ground-floor oasis with direct access to the infinity pool.",
+      "imageUrl": "/images/rooms/ulin-poolside.jpg",
+      "slug": "/rooms/ulin-poolside"
     }
   ],
   "facilities": [
@@ -72,6 +79,29 @@
       "icon": "ParkingCircle",
       "name": "Complimentary Parking",
       "description": "Enjoy peace of mind with our secure and complimentary on-site parking."
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "name": "Dine With Us",
+      "description": "Exquisite culinary journeys await at our world-class restaurants.",
+      "imageUrl": "/images/experiences/dine.jpg",
+      "href": "/dining"
+    },
+    {
+      "id": 2,
+      "name": "The Spa",
+      "description": "Surrender to serenity with our holistic spa and wellness treatments.",
+      "imageUrl": "/images/experiences/spa.jpg",
+      "href": "/spa"
+    },
+    {
+      "id": 3,
+      "name": "Events & Retreats",
+      "description": "Host your unforgettable events and transformative retreats with us.",
+      "imageUrl": "/images/experiences/events.jpg",
+      "href": "/events"
     }
   ]
 }

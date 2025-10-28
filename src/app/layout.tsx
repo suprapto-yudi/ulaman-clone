@@ -37,7 +37,8 @@ export default function RootLayout({
         className={`${jost.variable} ${cormorant.variable} font-sans bg-background text-foreground`}
       >
         <Navbar />
-        <main className="antialiased">{children}</main>
+        {/* HAPUS tag <main> di sini. children (yaitu page.tsx) akan merender tag <main> sendiri. */}
+        {children}
         <Footer />
       </body>
     </html>

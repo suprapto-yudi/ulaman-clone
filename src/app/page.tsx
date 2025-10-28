@@ -1,31 +1,33 @@
-// Hapus 'import Image from "next/image";' yang lama
-import HeroSection from '@/components/sections/HeroSection'
-// Impor komponen baru kita
-import IntroSection from '@/components/sections/IntroSection'
+// src/app/page.tsx
+
+// Import Sections yang sudah kita buat
+import HeroSection from "@/components/sections/HeroSection";
+import IntroSection from "@/components/sections/IntroSection";
+import RoomsSection from "@/components/sections/RoomsSection";
+import FacilitiesSection from "@/components/sections/FacilitiesSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
 
 export default function Home() {
   return (
-    <main>
-      {/* Navbar dan Footer sudah ada di layout.tsx, 
-        jadi kita tidak perlu menambahkannya di sini.
-        Kita hanya perlu menambahkan section-section halaman.
-      */}
-      
+    // Menggunakan tag <main> di sini (di dalam children) adalah cara yang paling semantik.
+    <main> 
+      {/* 1. HERO (Full screen, Video Background) */}
       <HeroSection />
       
-      {/* Kita tambahkan ID ini agar "Scroll Down" di HeroSection 
-        bisa berfungsi jika kita mau.
-        Section berikutnya (Intro) akan kita letakkan di sini.
-      */}
+      {/* 2. INTRO (Welcome Message) */}
       <IntroSection />
+      
+      {/* 3. ROOMS (Embla Carousel Slider) */}
+      <RoomsSection />
 
-      {/* Placeholder untuk FacilitiesSection */}
+      {/* 4. FACILITIES (Grid 3 Kolom Ikon) */}
       <FacilitiesSection />
 
-      {/* Placeholder untuk section-section lain */}
-      <div className="h-screen bg-gray-200" />
-      <div className="h-screen bg-background" />
-
+      {/* 5. EXPERIENCES (Grid 3 Kolom Gambar) */}
+      <ExperienceSection />
+      
+      {/* Placeholder Tambahan (Opsional, bisa dihapus) */}
+      <div className="h-48 bg-gray-200" />
     </main>
-  )
+  );
 }
